@@ -1,6 +1,6 @@
 lista_zakupow = {
     "piekarnia": ["chleb", "pączek", "bułki", "eklerki"],
-    "warzywniak": ["marchew", "seler", "rukola", "groszek"]
+    "warzywniak": ["marchew", "seler", "rukola", "groszek", "jabłka"]
 }
 
 sum_of_products = 0
