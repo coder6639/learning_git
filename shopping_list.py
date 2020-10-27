@@ -15,4 +15,4 @@ for store in lista_zakupow.keys():
 
 print(f"W sumie kupuję {sum_of_products} produktów")
 
-# pozdrawiam
+# pozdrawiam !
