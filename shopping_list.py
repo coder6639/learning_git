@@ -14,3 +14,5 @@ for store in lista_zakupow.keys():
     print(f"Idę do {store.capitalize()} i kupuję tam {correct_list}")
 
 print(f"W sumie kupuję {sum_of_products} produktów")
+
+# pozdrawiam
