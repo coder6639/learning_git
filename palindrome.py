@@ -4,8 +4,13 @@ def is_palindrome(word:str) -> bool:
     Arguments:
     word: word to be checked
     """
-    palindrome = (word == word[::-1])
+    palindrome_string = ""
+    for char in word:
+        if char.isalnum():
+            palindrome_string += char
+    palindrome = (palindrome_string == palindrome_string[::-1])
     print(palindrome)
     return palindrome
 
-is_palindrome("oko")
+is_palindrome("kobyła ma mały bok")
+is_palindrome("321 oko 1 2 3")
