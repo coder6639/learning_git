@@ -8,9 +8,8 @@ def is_palindrome(word:str) -> bool:
     for char in word:
         if char.isalnum():
             palindrome_string += char
-    palindrome = (palindrome_string == palindrome_string[::-1])
-    print(palindrome)
-    return palindrome
+    return palindrome_string.casefold() == palindrome_string[::-1].casefold()
 
-is_palindrome("kobyła ma mały bok")
-is_palindrome("321 oko 1 2 3")
+
+print(is_palindrome("KobyŁA ma mały bok"))
+print(is_palindrome("321 oko 1 2 3"))
